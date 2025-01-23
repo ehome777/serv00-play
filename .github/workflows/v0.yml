@@ -1,0 +1,40 @@
+name: Hourly Website Visit
+
+on:
+  schedule:
+    # 每小时执行一次
+    - cron: "0 * * * *"
+  workflow_dispatch:  # 手动触发支持
+
+jobs:
+  visit-websites:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 第一次访问
+      - name: Visit website 1
+        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=hw8zyzanzhu07"
+
+      # 第二次访问
+      - name: Visit website 2
+        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=okzyzanzhu11"
+
+      # 第一次访问
+      - name: Visit website 3
+        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=sky"
+
+      # 第二次访问
+      - name: Visit website 4
+        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=hn"
+
+      # 第一次访问
+      - name: Visit website 5
+        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=ff"
+
+      # 第二次访问
+      - name: Visit website 6
+        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=tky"
+
+      # 第二次访问
+      - name: Visit website 7
+        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=bb"
