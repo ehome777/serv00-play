@@ -13,28 +13,32 @@ jobs:
     steps:
       # 第一次访问
       - name: Visit website 1
-        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=hw8zyzanzhu07"
+        run: curl -X GET "https://v0.777666.asia/api.php/timming/index.html?enforce=1&name=hw8zyzanzhu07"
 
       # 第二次访问
       - name: Visit website 2
-        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=okzyzanzhu11"
+        run: curl -X GET "https://v0.777666.asia/api.php/timming/index.html?enforce=1&name=okzyzanzhu11"
 
       # 第一次访问
       - name: Visit website 3
-        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=sky"
+        run: curl -X GET "https://v0.777666.asia/api.php/timming/index.html?enforce=1&name=sky"
 
       # 第二次访问
       - name: Visit website 4
-        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=hn"
+        run: curl -X GET "https://v0.777666.asia/api.php/timming/index.html?enforce=1&name=hn"
 
       # 第一次访问
       - name: Visit website 5
-        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=ff"
+        run: curl -X GET "https://v0.777666.asia/api.php/timming/index.html?enforce=1&name=ff"
 
       # 第二次访问
       - name: Visit website 6
-        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=tky"
+        run: curl -X GET "https://v0.777666.asia/api.php/timming/index.html?enforce=1&name=tky"
 
       # 第二次访问
       - name: Visit website 7
-        run: curl -X GET "https://v0.777888.asia/api.php/timming/index.html?enforce=1&name=bb"
+        run: curl -X GET "https://v0.777666.asia/api.php/timming/index.html?enforce=1&name=bb"
+
+        # 第二次访问
+      - name: Visit website bbj
+        run: curl -X GET "http://v0.777666.asia/bbj/haibao.php?cmsname=maccms10&bbjtype=new&codetype=php&filtercondi=name&orderby=ASC&num=10&level=9"
